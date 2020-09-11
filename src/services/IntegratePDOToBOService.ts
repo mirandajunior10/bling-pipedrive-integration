@@ -11,7 +11,6 @@ export default class IntegratePDOToBOService {
     const responses = await Promise.all(
       data.data.map(this.sendOrder)
     )
-    console.log(responses)
     return responses
   }
 

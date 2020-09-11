@@ -38,7 +38,6 @@ export default class ConsolidateDataOnMongoService {
 
     }, [])
 
-    console.log(consolidatedData)
     const mongoData = this.mongoRepository.create(consolidatedData)
     await this.mongoRepository.save(mongoData);
 
