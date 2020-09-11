@@ -1,0 +1,12 @@
+{
+  "name": "default",
+  "type": "mongodb",
+  "url": "mongodb+srv://mirandajunior:310396Jr@cluster0.ndbuh.mongodb.net/linkAPI",
+  "useNewUrlParser": true,
+  "synchronize": true,
+  "logging": true,
+  "useUnifiedTopology": true,
+  "entities": [
+    "./src/entities/*.ts"
+  ]
+}
